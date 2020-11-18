@@ -1,0 +1,159 @@
+Introduce Git:
+--------------
+
+Start with below commands:
+
+git config --global user.name "Bhaskar"
+git config --global user.email"devopsbskr@gmail.com"
+
+This is one time activity
+
+To display user details:
+
+git config --global user.name
+git config --global user.email
+
+
+Creating a Repository on Git:
+-----------------------------
+Before working with git
+
+--> all git commands start with "git"
+--> you should introduce yourself to git
+--> git works with repositories
+--> most of the git commands should run inside a git repository
+--> git init. --> creating directory on local repo
+
+Differenet Stages on Git:
+-------------------------
+
+-- Working directory (Folder add for git init.)
+-- Staging area (git add)
+-- repository (git commit)
+
+--> git add.(-all) -- add all files into staging area
+--> git commit -- add changes to local repo
+--> git status -- shows current stage of repository
+--> git log -- shows commit history
+
+
+git diff commands:
+------------------
+
+--> git diff -- compare changes of working directory with staging area
+--> git diff -- staged - compare changes of staging area with local repository
+--> git diff HEAD - compare changes of working directory with local repository
+
+--> git diff <commitid> <commitid> -- using this command we can checks the changes
+
+Create a GitHub Account:
+------------------------
+user name: Bhaskarcool
+Email: devopsbskr@gmail.com
+passord:devops123!
+
+Working a repo on github account:
+----------------------------------
+--> Creating a repository by selecting + or New repository
+--> get the code from Github to your local system -- git clone <url>
+--> push the code into remote repo -- git push origin master
+
+Set of commands for updating other developer code:
+--------------------------------------------------
+git clone <url>
+git status -- check the status
+git commit -m "Update the code"
+git push origin master
+
+
+
+git clone:
+---------
+--> git clone is used for just downloading excatly what is currently working on the remote server repository and saving it in your machine's folder where that is placed.
+--> mostly it is used only when we are going to upload the project for the first time.
+
+git pull:
+---------
+--> git pull is basically a (clone(downloading+merge)) operation and mostly used when you are working as team work.
+--> In other words when you want the recent changes in that project you can pull.
+
+Connecting to GIthub with ssh:
+-----------------------------
+-->Login into root in Linux system
+--> ssh-keygen -- generate ssh key
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
