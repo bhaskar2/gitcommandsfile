@@ -80,7 +80,7 @@ git pull:
 Connecting to GIthub with ssh:
 -----------------------------
 -->Login into root in Linux system
---> ssh-keygen -- generate ssh key
+--> ssh-keygen -- generate ssh key(/root/.ssh/id_rsa)
 
 
 
